@@ -39,7 +39,11 @@ public class Cell extends JButton{
                 }                              
                 rodadas++;
                 if(rodadas==3){
+<<<<<<< Updated upstream
                     JOptionPane.showMessageDialog(null, "Empate");
+=======
+                    JOptionPane.showMessageDialog(null, "Empate ://");
+>>>>>>> Stashed changes
                     System.exit(0);
                 }
             }           
