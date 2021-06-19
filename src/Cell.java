@@ -35,17 +35,7 @@ public class Cell extends JButton{
                     if(TestaVitoria.testarVitoria(1)){
                         JOptionPane.showMessageDialog(null, "Você Ganhou");
                         System.exit(0);
-<<<<<<< Updated upstream
-                        
-=======
-
-                    }
-                    rodadas++;
-                    if(rodadas==1){
-                        JOptionPane.showMessageDialog(null, "Empate");
-                        System.exit(0);
->>>>>>> Stashed changes
-                    }
+                    }      
                 }                              
                 rodadas++;
                 if(rodadas==2){
