@@ -39,7 +39,7 @@ public class Cell extends JButton{
                 }                              
                 rodadas++;
                 if(rodadas==3){
-                    JOptionPane.showMessageDialog(null, "Empate :/");
+                    JOptionPane.showMessageDialog(null, "Empate");
                     System.exit(0);
                 }
             }           
