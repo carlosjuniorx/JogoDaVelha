@@ -1,3 +1,8 @@
+package computador;
+
+import buttons.Cell;
+import main.Tabuleiro;
+
 public class Computador_A extends Computador{
 
     public Computador_A() {
