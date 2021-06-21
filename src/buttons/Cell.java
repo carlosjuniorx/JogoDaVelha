@@ -1,5 +1,6 @@
+package buttons;
 
-import java.awt.Color;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -7,18 +8,19 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
-
+import main.Jogador;
+import main.Tabuleiro;
+import main.TestaVitoria;
 
 public class Cell extends JButton{
     Jogador player = new Jogador();
 	
-    int rodadas=0;
+    
     public int who=0;
-    static int jogada=1;
+    public static int jogada=1;
 
 
     public Cell(){
-        setBackground(Color.WHITE);
         play();
     }
     
@@ -33,16 +35,19 @@ public class Cell extends JButton{
                         jogada=2;
                     }                   
                     if(TestaVitoria.testarVitoria(1)){
+                        jogada=1;
                         JOptionPane.showMessageDialog(null, "Você Ganhou");
                         System.exit(0);
                     }
 
                 }                              
-                rodadas++;
-                if(rodadas==3){
+                Tabuleiro.rodadas++;
+                if(Tabuleiro.rodadas==5){
+                    jogada=1;
                     JOptionPane.showMessageDialog(null, "Empate!!!!");
                     System.exit(0);
                 }
+                
             }           
         });
     }
