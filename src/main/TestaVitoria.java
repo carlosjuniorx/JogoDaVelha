@@ -1,3 +1,4 @@
+package main;
 public class TestaVitoria {
     
     public static boolean testarVitoria(int jog){
