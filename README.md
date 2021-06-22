@@ -6,6 +6,7 @@
   <p>Após a escolha do adversário inicia-se a partida, o jogo é jogado contra o computador.</p>
   <img width="400" src="src/imgs/2021-06-22 (3).png">
 </p>
+<p>Faltou implementar uma maneira de reiniciar o jogo através de um button.</p>
 
 
 ### Folder Structure
