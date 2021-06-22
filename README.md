@@ -1,13 +1,42 @@
-## Getting Started
+<h1>Jogo da Velha</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Jogo da velha feito em java no VS CODE 
+<p>
+  <img width="400" src="src/imgs/2021-06-22.png">
+  <p>Após a escolha do adversário inicia-se a partida, o jogo é jogado contra o computador.</p>
+  <img width="400" src="src/imgs/2021-06-22 (3).png">
+</p>
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### Folder Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<ul>
+  <li>src
+    <ul>Buttons
+      <ul>_Button</ul>
+      <ul>_ButtonAllien</ul>
+      <ul>_ButtonCuca</ul>
+      <ul>_ButtonMonkey</ul>
+    </ul>
+    <ul>computador
+      <ul>_Computador</ul>
+      <ul>_Computador_A</ul>
+      <ul>_Computador_B</ul>
+      <ul>_Computador_C</ul>
+    </ul>
+    <ul>imgs</ul>
+     <ul>main
+      <ul>_App</ul>
+      <ul>_EscolheAdversario</ul>
+      <ul>_Jogador</ul>
+      <ul>_Tabuleiro</ul>
+      <ul>_TesteVitoria</ul>
+    </ul>
+  </li>
+</ul>
+
+
+
 
 ## Dependency Management
 
