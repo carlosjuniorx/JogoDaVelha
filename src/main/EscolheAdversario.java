@@ -1,4 +1,7 @@
 package main;
+/* Sera criado o um frame inicial que servira para escolher contra qual computador vc ira jogar.
+esses 3 computadores são representados através de 3 botões todos os botões estão na pasta buttons.*/
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;

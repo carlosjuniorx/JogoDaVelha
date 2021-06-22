@@ -1,5 +1,7 @@
 package main;
 
+/* após o frame "EscolheAdversário" o Tabuleiro é chamado e é criado outro frame onde ocorrera o jogo , contra o adversário escolhido.*/
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
